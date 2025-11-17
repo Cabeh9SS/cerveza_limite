@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cerveza Límite 🍻</title>
+  <link rel="stylesheet" href="assets/css/stylePortada.css">
+</head>
+<body>
+  <div class="portada">
+    <div class="texto">
+      <h1>Cerveza<br>Límite</h1>
+      <p class="subtitulo">Juego de cartas</p>
+      <hr class="linea">
+      <button id="comenzar" class="btn-principal"> COMENZAR </button>
+	  
+	  <p class="programadores"><b>Alicia Sánchez de León <br> Carlos Benítez Hervás <br> Héctor Díaz-Mayordomo Navarro</b></p>
+    </div>
+    <div class="imagen">
+      <img src="assets/images/cervezalimitePortada.jpg" alt="Cerveza Límite">
+    </div>
+  </div>
+
+  <script>
+   
+    document.getElementById("comenzar").addEventListener("click", () => {
+      window.location.href = "assets/html/inicioSesion.html";
+    });
+  </script>
+</body>
+</html>
+

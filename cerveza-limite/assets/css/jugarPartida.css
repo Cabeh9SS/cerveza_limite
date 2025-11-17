@@ -1,0 +1,82 @@
+    body {
+        margin: 0;
+        height: 100vh;
+        background-image: url("../images/fondoJugarPartida_3.png");
+        background-size: cover;
+        background-position: center;
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        font-family: Arial, sans-serif;
+    }
+
+
+
+    /* Zonas clicables (invisibles) */
+    .zona {
+        position: absolute;
+        cursor: pointer;
+        text-decoration: none;
+        /* para depurar: */
+        /* outline:2px dashed #00ffff80; background:#00ff1a14; */
+    }
+
+    /* Etiquetas visibles (están en el HTML) */
+    .etiqueta {
+        position: absolute;
+        padding: .45rem .9rem;
+        font-weight: 700;
+        background: rgba(0, 0, 0, .65);
+        color: #fff;
+        border-radius: 8px;
+        box-shadow: 0 2px 8px #0006;
+        transform: translate(-50%, -100%);
+        white-space: nowrap;
+        cursor: pointer;
+    }
+
+    /* Hover accesible */
+    .zona:hover {
+        outline: 2px solid #fff8;
+        border-radius: 15px;
+    }
+
+    /* —— POSICIONES (en %) —— */
+    /* Taburete izquierdo */
+    #z-taburete {
+        left: 11%;
+        top: 74%;
+        width: 12%;
+        height: 25%;
+    }
+
+    #lbl-taburete {
+        left: 17%;
+        top: 72%;
+    }
+
+    /* Mesa central */
+    #z-mesa {
+        left: 38%;
+        top: 80%;
+        width: 26%;
+        height: 22%;
+    }
+
+    #lbl-mesa {
+        left: 51%;
+        top: 80%;
+    }
+
+    /* Pizarra */
+    #z-pizarra {
+        left: 62.5%;
+        top: 38%;
+        width: 9%;
+        height: 22%;
+    }
+
+    #lbl-pizarra {
+        left: 67%;
+        top: 36%;
+    }
