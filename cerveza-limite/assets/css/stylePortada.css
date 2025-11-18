@@ -1,0 +1,97 @@
+body,
+html {
+    background-image: url("../images/fondoPortada_2.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: 'Arial', sans-serif;
+}
+
+.portada {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100vh;
+    padding: 40px 80px;
+    box-sizing: border-box;
+}
+
+.texto {
+    flex: 1;
+    padding: 20px;
+    margin-left: 120px;
+    max-width: 500px;
+}
+
+h1 {
+    font-size: 4em;
+    line-height: 0.9em;
+    color: #000;
+    margin: 0;
+}
+
+.gris {
+    color: #888;
+    font-weight: normal;
+}
+
+.subtitulo {
+    font-size: 1.8em;
+    color: #2b2a2a;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+/* Línea decorativa */
+.linea {
+    width: 160px;
+    height: 4px;
+    border: none;
+    background-color: #ff9900;
+    margin-left: 0;
+    margin-top: 10px;
+    margin-bottom: 40px;
+}
+
+.btn-principal {
+    background-color: #ff6f00;
+    border: 2px solid black;
+    color: white;
+    padding: 15px 40px;
+    font-size: 1.3em;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background 0.6s;
+}
+
+.btn-principal:hover {
+    background-color: #b56e03;
+}
+
+.programadores {
+    position: absolute;
+    bottom: 14px;
+    left: 60px;
+    font-size: 1em;
+    opacity: 0.8;
+    line-height: 1.5em;
+    color: #333
+}
+
+
+.imagen {
+    flex: 2;
+    display: flex;
+    justify-content: center;
+}
+
+.imagen img {
+    width: 70%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+}

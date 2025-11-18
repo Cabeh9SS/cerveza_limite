@@ -1,0 +1,67 @@
+    body {
+        margin: 0;
+        height: 100vh;
+        background-image: url("../images/fondoRegistro.jpg");
+        background-size: cover;
+        background-position: center;
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        font-family: Arial, sans-serif;
+    }
+
+    .formulario {
+        width: 350px;
+        margin-right: 250px;
+        background-color: rgba(255, 255, 255, 0.6);
+        border-radius: 15px;
+        padding: 30px;
+        box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+    }
+
+    h1 {
+        text-align: center;
+        font-size: 24px;
+        margin-bottom: 25px;
+    }
+
+    label {
+        display: block;
+        font-weight: bold;
+        margin-top: 10px;
+    }
+
+    input[type="text"],
+    input[type="password"] {
+        width: 100%;
+        padding: 8px;
+        margin-top: 5px;
+        margin-bottom: 15px;
+        border: 1px solid #555;
+        border-radius: 5px;
+        background-color: rgba(255, 255, 255, 0.8);
+    }
+
+    .botones {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    button {
+        background-color: #c7e7f3;
+        border: 2px solid #333;
+        border-radius: 6px;
+        padding: 8px 16px;
+        cursor: pointer;
+        font-weight: bold;
+        transition: background-color 0.2s;
+    }
+
+    button:hover {
+        background-color: #b0dff1;
+    }
+
+    .errores {
+        color: #b00020;
+        margin-top: 8px;
+    }

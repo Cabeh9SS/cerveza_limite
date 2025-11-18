@@ -1,0 +1,11 @@
+  body {
+        margin: 0;
+        height: 100vh;
+        background-image: url("../images/fondoRanking.png");
+        background-size: cover;
+        background-position: center;
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        font-family: Arial, sans-serif;
+    }
