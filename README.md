@@ -21,14 +21,14 @@ Tecnologías utilizadas: PHP, JavaScript, HTML5/CSS3, MySQL, servidor Apache
 Estructura del proyecto:
 
 cerveza-limite/
-- css/                # Estilos (juego, ranking, login)
+- css/                # Estilos
 - html/               # Vistas principales
 - images/             # Assets visuales
 - js/                 # Lógica del frontend y llamadas fetch
 - php/
-  · public/         # Scripts de entrada (partida.php, login.php)
+  · public/         # Scripts de entrada
   · src/
-    + ClasesCervezaLimite/  # Entidades (Jugador, Carta, Partida)
-    + ClasesDAO/            # Persistencia de datos (JugadorDAO, etc.)
+    + ClasesCervezaLimite/  # Entidades
+    + ClasesDAO/            # Persistencia de datos con DAO
 - config.php          # Configuración de BD
 - database.sql        # Script para recrear las tablas
