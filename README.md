@@ -19,6 +19,7 @@ Ranking en tiempo real para ver los resultados de las partidas
 Tecnologías utilizadas: PHP, JavaScript, HTML5/CSS3, MySQL, servidor Apache
 
 Estructura del proyecto:
+
 cerveza-limite/
 
 ├── css/                # Estilos (juego, ranking, login)
@@ -31,13 +32,13 @@ cerveza-limite/
 
 ├── php/
 
-│   ├── public/         # Scripts de entrada
+  public/         # Scripts de entrada
 
-│   └── src/
+  src/
 
-│       ├── ClasesCervezaLimite/  # Entidades 
+    ClasesCervezaLimite/  # Entidades 
 
-│       └── ClasesDAO/            # Persistencia de datos con DAO
+    ClasesDAO/            # Persistencia de datos con DAO
 
 ├── config.php          # Configuración de BD
 
