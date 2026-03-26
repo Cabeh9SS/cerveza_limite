@@ -26,8 +26,8 @@ cerveza-limite/
 - images/             # Assets visuales
 - js/                 # Lógica del frontend y llamadas fetch
 - php/
-  · public/         # Scripts de entrada
-  · src/
+  + public/         # Scripts de entrada
+  + src/
     + ClasesCervezaLimite/  # Entidades
     + ClasesDAO/            # Persistencia de datos con DAO
 - config.php          # Configuración de BD
