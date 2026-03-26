@@ -17,3 +17,17 @@ Ranking en tiempo real para ver los resultados de las partidas
 <img width="1919" height="908" alt="Captura de pantalla 2026-03-23 203318" src="https://github.com/user-attachments/assets/e587dea4-099f-4c12-a5a9-1a1e4bb9349b" />
 
 Tecnologías utilizadas: PHP, JavaScript, HTML5/CSS3, MySQL, servidor Apache
+
+Estructura del proyecto:
+cerveza-limite/
+├── css/                # Estilos (juego, ranking, login)
+├── html/               # Vistas principales
+├── images/             # Assets visuales
+├── js/                 # Lógica del frontend y llamadas fetch
+├── php/
+│   ├── public/         # Scripts de entrada
+│   └── src/
+│       ├── ClasesCervezaLimite/  # Entidades 
+│       └── ClasesDAO/            # Persistencia de datos con DAO
+├── config.php          # Configuración de BD
+└── database.sql        # Script para recrear las tablas
