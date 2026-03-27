@@ -1,22 +1,29 @@
 CERVEZA LÍMITE - JUEGO DE CARTAS (Vídeo del funcionamiento del juego: https://youtu.be/prST1hICYlQ?si=EeF9ug3R-Us8W313)
 
-![cervezalimitePortada](https://github.com/user-attachments/assets/8d397dc4-bb78-4d21-9866-1e77de78259f)
+![cervezalimitePortada](https://github.com/user-attachments/assets/17154286-23af-4ad1-a891-1442405cf604)
 
-Juego de cartas estratégico para 2 jugadores donde el objetivo es no llegar a 10 puntos de cerveza
+Juego de cartas original para 2 jugadores donde el objetivo es no llegar a 10 puntos de cerveza. 
 
 Incluye login y registro de usuarios
 
-![fondoRegistro](https://github.com/user-attachments/assets/b16a56a7-f206-4382-884b-142a7c060b62)
+<img width="768" height="379" alt="menu_login" src="https://github.com/user-attachments/assets/5b05d68a-9884-4b9c-a9e3-7c41e4886628" />
 
 Interfaz visual ambientada en una taberna
 
-<img width="3168" height="1344" alt="fondoJugarPartida_4" src="https://github.com/user-attachments/assets/e1d38068-e8d1-425a-b4bd-b121269b2125" />
+<img width="761" height="380" alt="menu_principal" src="https://github.com/user-attachments/assets/87d77a1f-a66e-40b5-9186-e5e4acb60e90" />
 
 Ranking en tiempo real para ver los resultados de las partidas
 
-<img width="1919" height="908" alt="Captura de pantalla 2026-03-23 203318" src="https://github.com/user-attachments/assets/e587dea4-099f-4c12-a5a9-1a1e4bb9349b" />
+<img width="768" height="363" alt="ranking" src="https://github.com/user-attachments/assets/3fbe336e-6a96-4df6-a840-58c83bc35c31" />
 
-Tecnologías utilizadas: PHP, JavaScript, HTML5/CSS3, MySQL, servidor Apache
+Multijugador en tiempo real (asíncrono), con gestión de turnos y estados de partida mediante comunicación constante con el backend.
+
+Tecnologías utilizadas: PHP (POO), JavaScript, HTML5/CSS3, MySQL, servidor Apache
+
+Arquitectura y patrones:
+- Patrón DAO: desacoplamiento entre la lógica de negocio y las consultas SQL.
+- Singleton: implementado en la clase de conexión a la base de datos para optimizar recursos.
+- Comunicación frontend-backend mediante Fetch API y transporte de datos en formato JSON.
 
 Estructura del proyecto:
 
